@@ -17,7 +17,7 @@ public class PersonDAO {
 
     private final SessionFactory sessionFactory;
 
-
+    @Autowired
     public PersonDAO(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }
